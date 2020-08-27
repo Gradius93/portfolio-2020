@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 
-import Home from './containers/Home/Home'
+import Homepage from './containers/Homepage/Homepage'
 
 class App extends Component {
   render() {
-
-
-  return (
-    <div>
-      <Home />
-    </div>
-  );
-}
+    return (
+      <div>
+        <Homepage />
+      </div>
+    );
+  }
 }
 export default App;
