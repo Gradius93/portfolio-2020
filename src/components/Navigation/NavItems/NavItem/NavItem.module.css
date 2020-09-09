@@ -1,11 +1,11 @@
-.NavigationItem {
+.NavItem {
   margin: 10px 0;
   box-sizing: border-box;
   display: block;
   width: 100%;
 }
 
-.NavigationItem a {
+.NavItem a {
   color: #8f5c2c;
   text-decoration: none;
   width: 100%;
@@ -14,14 +14,14 @@
 
 }
 
-.NavigationItem a:hover,
-.NavigationItem a:active,
-.NavigationItem a.active {
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active {
   color: #40a4c8;
 }
 
 @media (min-width: 500px) {
-  .NavigationItem {
+  .NavItem {
     margin: 0;
     display: flex;
     height: 100%;
@@ -29,7 +29,7 @@
     align-items: center;
   }
 
-  .NavigationItem a {
+  .NavItem a {
     color: white;
     height: 100%;
     padding: 16px 10px;
@@ -37,9 +37,9 @@
 
   }
 
-  .NavigationItem a:hover,
-  .NavigationItem a:active,
-  .NavigationItem a.active {
+  .NavItem a:hover,
+  .NavItem a:active,
+  .NavItem a.active {
     background-color: #8f5c2c;
     border-bottom: 4px solid #40a4c8;
     color: white;
