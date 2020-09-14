@@ -1,0 +1,9 @@
+.Index {
+  text-size: 50px;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}

@@ -1,14 +1,23 @@
 import React from 'react'
 
-const Card = ({ image, title }) => {
+import classes from './Projects.module.css'
+
+const Card = ({ image, title, info }) => {
   return (
-    <div className="card">
+    <div className={classes.Card}>
+      <div className="card-header">
+        <h3 className="card-header-title">{title}</h3>
+      </div>
       <div className="card-image">
         <figure className="image">
-          <img src={image} alt={title} />
+          <img src={image} alt={title}/>
         </figure>
       </div>
-
+      <div className="card-content">
+        <div className="content">
+          <p>{info}</p>
+        </div>
+      </div>
     </div>
   )
 }
